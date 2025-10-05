@@ -89,30 +89,11 @@ mvn exec:java -Dexec.mainClass="com.yourgroup.chat.Main" -Dexec.args="8081 local
 
 ---
 
-### 4. Emoji Feature
+### 4. File Transfer
 
 **Steps**
 
-1. Click the 😊 button next to the input box
-2. Emoji picker pops up
-3. Click any emoji
-4. Send a message containing the emoji
-
-**Expected**
-
-* Emoji picker shows 4 categories correctly
-* Clicking inserts at the cursor position
-* Emoji renders properly in messages
-
-> *Note: If your build removed emoji support, skip this test.*
-
----
-
-### 5. File Transfer
-
-**Steps**
-
-1. Click the 📁 file button
+1. Click the file button
 2. Choose a file
 3. Observe the receiver’s behavior
 
@@ -124,7 +105,7 @@ mvn exec:java -Dexec.mainClass="com.yourgroup.chat.Main" -Dexec.args="8081 local
 
 ---
 
-### 6. Multi-Node Network
+### 5. Multi-Node Network
 
 **Steps**
 
